@@ -25,4 +25,4 @@ export const COLORS = {
   LOSS_BORDER: 'border-red-500/30', 
 };
 
-export const isProduction = import.meta.env.NODE_ENV === 'production'
+export const isProduction = import.meta.env.MODE === 'production'
